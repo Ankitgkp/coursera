@@ -4,19 +4,19 @@ const userRouter = Router();
  
     userRouter.post("/signup", function(req,res){
         res.json({
-            message: "Signed endpoint"
+            message: "Signup endpoint"
         })
     })  
 
     userRouter.post("/signin", function(req,res){
         res.json({
-            message: "Signed endpoint"
+            message: "Signin endpoint"
         })
     })  
 
     userRouter.get("/purchases", function(req,res){
         res.json({
-            message: "Signed endpoint"
+            message: "Purchases endpoint"
         })
     })  
 
